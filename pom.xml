@@ -99,13 +99,13 @@
     <id>nexus</id>
     <name>release</name>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://52.91.2.73:8081/repository/2release2///</url>
+    <url>http://35.171.26.164:8081/repository/2release2/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
     <name>snapshots</name>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://52.91.2.73:8081/repository/1snapshot-2/</url>
+    <url>http://35.171.26.164:8081/repository/3snapshot2/</url>
   </snapshotRepository>
   </distributionManagement>
 
