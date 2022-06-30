@@ -19,7 +19,7 @@ node{
  } 
   stage('5deploy_uat'){
     //sh "scp "
-   deploy adapters: [tomcat9(credentialsId: 'Tomcat1-managers-credentials', path: '', url: 'http://54.162.45.84:8080')], contextPath: null, war: '**/*.war'
+   deploy adapters: [tomcat9(credentialsId: 'Tomcat1-managers-credentials', path: '', url: 'http://54.162.45.84:8080')], contextPath: null, war: 'target/*.war'
   }
  stage('6Approval'){
     timeout(time:9, unit:'HOURS') {
