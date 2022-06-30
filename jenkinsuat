@@ -7,6 +7,7 @@ node{
     git credentialsId: 'gitaccess2807', url: 'https://github.com/Goreal-Struct/sample2private'
   //    git branch: 'master', credentialsId: 'gitaccess2807', url: 'https://github.com/Goreal-Struct/sample2private'
  } 
+ /*
  stage('2JunitTest&Build'){
     sh "${mavenHome}/bin/mvn install"
  } 
@@ -20,7 +21,6 @@ node{
     //sh "scp "
    deploy adapters: [tomcat9(credentialsId: 'Tomcat1-managers-credentials', path: '', url: 'http://54.162.45.84:8080')], contextPath: null, war: '**/*.war'
   }
-/*
  stage('6Approval'){
     timeout(time:9, unit:'HOURS') {
         input message: 'Application ready for deployment, Please review and approve'
