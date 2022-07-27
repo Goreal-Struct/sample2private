@@ -96,12 +96,14 @@
 
 <distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>nexus</id>
+    <name>Go tech release</name>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://44.201.248.85:40/repository/rel2/</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>nexus</id>
+    <name>Go tech snapshot</name>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://44.201.248.85:40/repository/snap1/</url>
   </snapshotRepository>
