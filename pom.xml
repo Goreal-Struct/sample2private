@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:54.211.9.181:60</sonar.host.url>
+		<sonar.host.url>http:54.175.59.161:60</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,13 +99,13 @@
     <id>nexus</id>
     <name>Go tech release</name>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>hhttp://54.211.9.181:40/repository/rel1/</url>
+    <url>http://54.175.59.161:40/repository/release1/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
     <name>Go tech snapshot</name>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://54.211.9.181:40/repository/snap1/</url>
+    <url>http://54.175.59.161:40/repository/snap1/</url>
   </snapshotRepository>
 </distributionManagement>
 
